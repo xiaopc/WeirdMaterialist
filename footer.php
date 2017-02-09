@@ -32,7 +32,7 @@
       <div class="footer-copyright">
         <div class="container">
           &copy; 2016 <?php bloginfo( 'name' ); ?>
-          <span class="grey-text text-lighten-4 right">使用 <?php printf( __( '%s', 'materialist' ), 'WordPress' ); ?>, <a class="amber-text lighten-3" href="https://xiaopc.org/theme">主题</a></span>
+          <span class="grey-text text-lighten-4 right">使用 <?php printf( __( '%s', 'materialist' ), 'WordPress' ); ?>, <a class="amber-text lighten-3" href="https://xiaopc.org/">主题</a></span>
         </div>
       </div>
     </footer>
@@ -42,16 +42,5 @@
 
 <script type='text/javascript' src='//cdn.bootcss.com/materialize/0.97.7/js/materialize.min.js'></script>
 <?php wp_footer(); ?>
-<script>
-window.onload = function(){
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-23646862-3', 'auto');
-  ga('send', 'pageview');
-};
-</script>
 </body>
 </html>
